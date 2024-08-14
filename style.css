@@ -1,0 +1,60 @@
+body{
+	font-family: Arial,sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+header{
+	background: #333;
+	color: #ffff;
+	padding: 10 px;
+	text-align: center;
+}
+header h1{
+	margin: 0;
+	font-size: 2.5rem;
+}
+
+header p{
+	margin: 5px 0;
+	font-size: 1.2rem;
+}
+
+.profile{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.profile img{
+	border-radius: 150%;
+	margin: 20px;
+	width: 200px;
+	height: 180px;
+}
+
+.profile .bio{
+	max-width: 900px;
+}
+
+.profile h2{
+	margin-top: 0;
+}
+
+.profile h2{
+	font-size: 2rem;
+}
+
+footer{
+	text-align: center;
+	padding: 10px 0;
+	background-color: #333;
+	color: #fff;
+	position: unset;
+	bottom: 0;
+	width: 100%;
+}
